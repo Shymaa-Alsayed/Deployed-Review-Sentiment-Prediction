@@ -5,16 +5,19 @@
 	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
-<body>
+<body style="background-color:#c7abd8">
 
-	<header>
+	<header class="main">
 		<div class="container">
 		<div id="brandname">
 			 Starter Web App with Machine Learning
 		</div>
-		<h2>Sentiment Prediction for Products Reviews</h2>
-		<p>This is just a basic sentiment analysis using nltk and sickit-learn with 86 percent accuracy</p>
-		
+		<h2 style="color:#DDD;background-color:#333;">Sentiment Prediction for Products Reviews</h2>
+		<ul>
+			<li>This is just a basic sentiment analysis task using nltk and sickit-learn with 86 percent accuracy</li>
+			<li>The model is trained using Amazon product reviews sample</li>
+			<li>I used Logistic regression as a final model after comparing it with SVM, KNN </li>
+		</ul>
 	</div>
 	</header>
 

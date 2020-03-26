@@ -10,6 +10,7 @@ body{
 	overflow: hidden;
 }
 
+
 header{
 	background:#03A9F4;#35434a;
 	border-bottom:#448AFF 3px solid;
@@ -29,7 +30,7 @@ header{
 #brandname{
 	float:left;
 	font-size:30px;
-	color: #fff;
+	color: #002f89;
 	margin: 10px;
 }
 
